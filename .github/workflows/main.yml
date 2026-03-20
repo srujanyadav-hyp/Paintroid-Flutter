@@ -21,6 +21,9 @@ jobs:
       - name: Setup
         run: make get
 
+      - name: Generate Code
+        run: make build
+
       - name: Static Analysis
         run: make lint
 
